@@ -10,9 +10,6 @@ RUN git clone https://github.com/ariannabrisco/CYBR_460
 # Create directory
 WORKDIR /Assignment3
 
-# Install python library numpy
-RUN pip install numpy
-
 # Install python library matplotlib
 RUN pip install matplotlib
 

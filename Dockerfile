@@ -1,17 +1,14 @@
-# Use Ubuntu operating system, latest version
-FROM ubuntu:latest
-
 # Use python as the language
 FROM python:3
 
-# Clone GitHub repo
-RUN git clone https://github.com/ariannabrisco/CYBR_460
-
 # Create directory
-WORKDIR /Assignment3
+WORKDIR /app
+
+# Clone GitHub repo
+RUN git clone https://github.com/ariannabrisco/CYBR460_ContainerizingwithDocker /app
 
 # Install python library matplotlib
 RUN pip install matplotlib
 
 # Run code
-CMD ["python", 'source.py']
+CMD ["python3", "source.py"]

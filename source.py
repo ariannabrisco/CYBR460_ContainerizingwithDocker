@@ -13,8 +13,14 @@ ax.add_patch(gold_rect)
 blue_rect = Rectangle((3, 0.5), width=1, height=4, edgecolor='blue', facecolor='blue')
 ax.add_patch(blue_rect)
 
-# Plot
+# Make plot nice
 plt.title("Blue Gold")
 plt.xlim(0,5)
 plt.ylim(0,5)
+
+# Save output
+plt.savefig("blue_gold.jpg")
+
+# Show
 plt.show()
+

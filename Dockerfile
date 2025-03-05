@@ -11,4 +11,4 @@ RUN git clone https://github.com/ariannabrisco/CYBR460_ContainerizingwithDocker 
 RUN pip install matplotlib
 
 # Run code
-CMD ["python3", "source.py"]
+CMD ["python3", "./source.py"]

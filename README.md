@@ -1,7 +1,7 @@
 # Containerizing Applications with Docker
 # Citation: https://www.geeksforgeeks.org/how-to-draw-shapes-in-matplotlib-with-python/
 
-# STEP 1: Open terminal or command line
+# STEP 1: Open terminal or command line and Docker Desktop
 
 # Step 1.1: Clone GitHub Repo
 git clone https://github.com/ariannabrisco/CYBR460_ContainerizingwithDocker

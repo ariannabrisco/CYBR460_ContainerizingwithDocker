@@ -10,10 +10,10 @@ git clone https://github.com/ariannabrisco/CYBR460_ContainerizingwithDocker
 cd CYBR460_ContainerizingwithDocker 
 
 # Step 1.3: Build image
-docker build -t source .
+docker build -t generate_bluegold .
 
 # Step 1.4: run image
-docker run source
+docker run generate_bluegold
 
 # Step 1.5: Open Visual Studio Code
 code .
